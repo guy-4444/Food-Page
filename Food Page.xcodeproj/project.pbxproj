@@ -14,6 +14,7 @@
 		8C60791F245B484A00C81EA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C60791D245B484A00C81EA2 /* LaunchScreen.storyboard */; };
 		8C607927245B48AF00C81EA2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C607926245B48AF00C81EA2 /* FirstViewController.swift */; };
 		8C60792B245B4D8100C81EA2 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C60792A245B4D8100C81EA2 /* Food.swift */; };
+		8C60792D245B549000C81EA2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C60792C245B549000C81EA2 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8C607920245B484A00C81EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C607926245B48AF00C81EA2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		8C60792A245B4D8100C81EA2 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		8C60792C245B549000C81EA2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				8C607920245B484A00C81EA2 /* Info.plist */,
 				8C607926245B48AF00C81EA2 /* FirstViewController.swift */,
 				8C60792A245B4D8100C81EA2 /* Food.swift */,
+				8C60792C245B549000C81EA2 /* SecondViewController.swift */,
 			);
 			path = "Food Page";
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				8C607913245B484800C81EA2 /* AppDelegate.swift in Sources */,
 				8C60792B245B4D8100C81EA2 /* Food.swift in Sources */,
 				8C607915245B484800C81EA2 /* SceneDelegate.swift in Sources */,
+				8C60792D245B549000C81EA2 /* SecondViewController.swift in Sources */,
 				8C607927245B48AF00C81EA2 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

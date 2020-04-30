@@ -51,14 +51,48 @@
                     </view>
                     <connections>
                         <outlet property="first_EDT_model" destination="n2t-58-9QR" id="xQl-7Z-syQ"/>
+                        <segue destination="ltV-jz-cfd" kind="show" identifier="goToFoodPage" id="f7c-pk-LpL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="137.94642857142856"/>
         </scene>
+        <!--Second View Controller-->
+        <scene sceneID="BxX-XU-DPE">
+            <objects>
+                <viewController id="ltV-jz-cfd" customClass="SecondViewController" customModule="Food_Page" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sq1-e7-T3N">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="square.and.arrow.up.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="qUD-nQ-TvB">
+                                <rect key="frame" x="67" y="108" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gk9-A3-5Li">
+                                <rect key="frame" x="76" y="275" width="231" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="B1D-Sk-kUJ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hNJ-2N-cvc"/>
+                    <connections>
+                        <outlet property="second_IMG_icon" destination="qUD-nQ-TvB" id="OTE-BZ-LJ3"/>
+                        <outlet property="second_LBL_title" destination="Gk9-A3-5Li" id="axf-jk-r2f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HAW-Rd-0Q6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="980" y="136.69950738916256"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Image" width="3901" height="3901"/>
+        <image name="square.and.arrow.up.fill" catalog="system" width="115" height="128"/>
     </resources>
 </document>
